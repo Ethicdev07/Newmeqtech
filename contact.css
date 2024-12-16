@@ -1,0 +1,177 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 100px;
+    padding: 20px;
+    background-color: lightgray;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    }
+    
+    .logo{
+    width: 250px;
+    }
+    
+    .menu ul{
+    display: flex;
+    gap: 2em;
+    }
+    
+    .menu ul li{
+    list-style-type: none;
+    }
+    ul li a{
+    text-decoration: none;
+    }
+    
+    .register{
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    }
+    .register a{
+    text-decoration: none;
+    color: white;
+    }
+
+    .contact{
+    padding: 100px;
+    /* height: 400px; */
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+    }
+
+    .contact1{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    }
+
+    .contact-container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+      }
+      
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+      }
+      
+      /* Form labels */
+      label {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+        display: block;
+        text-align: left;
+      }
+      
+      /* Input fields styling */
+      input, textarea {
+        width: 200%;
+        padding: 12px;
+        margin: 8px 0 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        color: #333;
+      }
+      
+      input:focus, textarea:focus {
+        border-color: #6c63ff;
+        outline: none;
+      }
+      
+      /* Button styling */
+      button {
+        width: 100%;
+        padding: 12px;
+        background-color: #6c63ff;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      button:hover {
+        background-color: #5a54d9;
+      }
+
+      
+  footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 10px;
+  }
+
+  .email{
+  font-size: 20px;
+  }
+
+  .email1{
+  color: purple;
+  font-size: 17px;
+  }
+
+  .phone{
+    font-size: 20px;
+ }
+  
+    .phone1{
+    color: purple;
+    font-size: 17px;
+    line-height: 2em;
+    }
+
+    .address{
+      font-size: 20px;
+  }
+    
+      .address1{
+      color: purple;
+      font-size: 17px;
+      }
+  .copyright{
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px;
+  }
+
+  .copyright1 a{
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  }
+      
+      /* Responsive design for smaller screens */
+      @media (max-width: 600px){
+        .contact-container {
+          padding: 20px;
+        }}
+      
+    
+       

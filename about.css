@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 2px solid red; */
+        height: 100px;
+        padding: 20px;
+        background-color: lightgray;
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        }
+        
+        .logo{
+        width: 250px;
+        }
+        
+        .menu ul{
+        display: flex;
+        gap: 2em;
+        }
+        
+        .menu ul li{
+        list-style-type: none;
+        }
+        ul li a{
+        text-decoration: none;
+        }
+        
+        .register{
+        background-color: black;
+        padding: 10px 30px;
+        border-radius: 10px;
+        }
+        .register a{
+        text-decoration: none;
+        color: white;
+        }
+.abouthead{
+/* background-color: lightgray; */
+/* border: 5px solid black; */
+padding: 20px;
+/* text-align: center; */
+}  
+
+.about{
+text-align: center;
+color: orangered;
+font-weight: 600;
+font-size: 20px;
+}
+
+.about-sect{
+display: flex;
+justify-content: space-around;
+}
+
+.logo1{
+width: 300px;
+}
+
+.newmeq{
+text-align: left;
+line-height: 2em;
+}
+
+.mission-sect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+background-color: lightgray;
+    }
+    
+    
+.mission{
+text-align: left;
+color: orangered;
+font-weight: 600;
+font-size: 20px;
+    }
+
+.newmeq1{
+text-align: left;
+color: orangered;
+font-weight: 600;
+font-size: 15px;
+}
+.writeup{
+font-size: 15px;
+line-height: 2em;
+color: black;
+font-weight: 300;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 10px;
+  }
+
+  .email{
+  font-size: 20px;
+  }
+
+  .email1{
+  color: purple;
+  font-size: 17px;
+  }
+
+  .phone{
+    font-size: 20px;
+ }
+  
+    .phone1{
+    color: purple;
+    font-size: 17px;
+    line-height: 2em;
+    }
+
+    .address{
+      font-size: 20px;
+  }
+    
+      .address1{
+      color: purple;
+      font-size: 17px;
+      }
+  .copyright{
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px;
+  }
+
+  .copyright1 a{
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  }
+
